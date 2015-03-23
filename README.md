@@ -4,7 +4,7 @@
 
 ###TIEDOSTOT:
 - Verkkosivu (index.html), johon syötetään pitkä url lyhennettäväksi<br>
-- Node.js serveri (app.js), joka ottaa myös yhteyttä tietokantaan<br>
+- Serveri (app.js), joka ottaa myös yhteyttä tietokantaan<br>
 - MySQL tietokanta (database.sql), jossa pitkän ja lyhyen urlin taulut sekä triggeri urlin lyhennykseen<br>
 - Funktiotiedosto (client.js), jossa yksi serveriin yhteyttä ottava funktio<br>
 
