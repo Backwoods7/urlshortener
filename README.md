@@ -1,4 +1,4 @@
-# urlshortener
+# URL SHORTENER
 
 ## Lyhyt käyttöohje suomeksi
 
