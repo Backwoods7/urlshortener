@@ -1,6 +1,6 @@
 # urlshortener
 
-Lyhyt käyttöohje suomeksi
+## Lyhyt käyttöohje suomeksi
 
 URLIN LYHENNYS
 1) lomakkeelle syötetään lyhennettävä url
