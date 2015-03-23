@@ -11,7 +11,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'artisa123',
+  password : 'password',
   database : 'urlshort',
  
 });
@@ -23,7 +23,7 @@ connection.connect();
  
 function BD(){
   var connection = mysql.createConnection(
-   {user: 'root', password: 'artisa123',host: 'localhost',database: 'urlshort'}); return connection; }
+   {user: 'root', password: 'password',host: 'localhost',database: 'urlshort'}); return connection; }
 app.post("/newlongurl", function (req, res) {
       var objBD = BD();
       post = null;
