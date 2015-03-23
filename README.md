@@ -5,7 +5,7 @@
 URLIN LYHENNYS: 
 1) lomakkeelle syötetään lyhennettävä url
 2) serveri siirtää urlin tietokantaan
-3) tietokanta luo automaattisesti triggerillä eri tauluun urlia vastaavan random 5-numeroisen numerosarjan (short url)
+3) tietokanta luo automaattisesti triggerillä eri tauluun urlia vastaavan random 5-numeroisen numerosarjan, eli short urlin
 4) sivulla näytetään käyttäjälle lyhennetty url
 
 PITKÄN URLIN PALAUTUS (liikenteen ohjaus): 
