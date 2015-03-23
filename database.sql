@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS urlshort;
+CREATE DATABASE urlshort;
+USE urlshort;
+
+CREATE TABLE longurl(
+longurl VARCHAR(200) PRIMARY KEY);
+
+CREATE TABLE shorturl (
+shorturl VARCHAR(5) PRIMARY KEY,
+longurl VARCHAR(200));
+
+CREATE TRIGGER generateshorturl 
+AFTER INSERT ON longurl
+FOR EACH ROW
+INSERT INTO shorturl VALUES (FLOOR(RAND()*(1-99999)+99999), NEW.longurl);
