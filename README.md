@@ -2,7 +2,7 @@
 
 ## Lyhyt käyttöohje suomeksi
 
-TIEDOSTOT:<br>
+TIEDOSTOT:
 - Verkkosivu (index.html), johon syötetään pitkä url lyhennettäväksi<br>
 - Serveri (app.js), joka ottaa myös yhteyttä tietokantaan<br>
 - Tietokanta (database.sql), jossa pitkän ja lyhyen urlin taulut sekä triggeri urlin lyhennykseen<br>
