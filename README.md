@@ -10,14 +10,14 @@ TIEDOSTOT:
 
 <hr>
 
-URLIN LYHENNYS: <br>
+URLIN LYHENNYS: <br><br>
   1) lomakkeelle syötetään lyhennettävä url<br>
   2) serveri siirtää urlin tietokantaan<br>
   3) tietokanta luo automaattisesti triggerillä eri tauluun urlia vastaavan random 5-numeroisen numerosarjan, eli tässä   
   käytettävän short urlin<br>
   4) sivulla näytetään käyttäjälle lyhennetty url<br>
 
-PITKÄN URLIN PALAUTUS (liikenteen ohjaus): <br>
+PITKÄN URLIN PALAUTUS (liikenteen ohjaus): <br><br>
   1) serveri tsekkaa mihin osoitteeseen käyttäjä on hakeutunut<br>
   2) serveri etsii tietokannasta vastaavaa shorturlia<br>
   3) serveri ohjaa liikenteen shorturlia vastaavaan oikeaan pitkään urliin<br>
